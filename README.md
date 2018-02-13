@@ -27,3 +27,4 @@ Feel free to add your ideas and examples here as well. Just add or modify a them
 ## License
 
 Unless otherwise noted the license of these theme is Public Domain.
+The emoji cursor effect was taken from [Tim Holman](https://github.com/tholman/90s-cursor-effects)
