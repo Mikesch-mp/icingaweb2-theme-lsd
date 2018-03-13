@@ -169,3 +169,28 @@
         90%  { color: hsl(165, 100%, 39%); }
         100% { color: hsl(201, 100%, 39%); }
 }
+
+@keyframes tada {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+	10%, 20% {
+		transform: scale3d(.8, .8, .8) rotate3d(0, 0, 1, -4deg);
+	}
+	30%, 50%, 70%, 90% {
+		transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 4deg);
+	}
+	40%, 60%, 80% {
+		transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -4deg);
+	}
+	to {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.logo,
+#header-logo-container,
+#icinga-logo,
+.nav li > a {
+	animation: tada 2s linear infinite !important;
+}
